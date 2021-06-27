@@ -3,9 +3,14 @@ import { SearchIcon, HomeIcon } from '@heroicons/react/solid';
 
 export default function SearchBar() {
     return (
-        <div className='sticky top-4 flex justify-between items-center gap-4 mb-8'>
+        <div
+            className='sticky top-4 z-50 flex justify-between
+                        items-center gap-4 mb-8'>
             <Link href='/'>
-                <a className='grid place-items-center flex-shrink-0 w-14 h-14 rounded-xl bg-white text-gray-500 shadow-xl'>
+                <a
+                    className='grid place-items-center flex-shrink-0
+                                w-14 h-14 rounded-xl bg-white text-gray-500
+                                shadow-xl'>
                     <HomeIcon className='w-6 h-6' />
                 </a>
             </Link>

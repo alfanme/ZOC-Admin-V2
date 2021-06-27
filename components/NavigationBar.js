@@ -55,7 +55,7 @@ export default function NavigationBar({ show }) {
                 <Link href={page.route} key={page.title}>
                     <a
                         className='flex flex-col justify-center
-                                items-center text-gray-500'>
+                                items-center h-full w-full text-gray-500'>
                         {pathname === page.route ? page.iconActive : page.icon}
                         <p className='mt-1 text-xs'>{page.title}</p>
                     </a>
