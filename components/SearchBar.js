@@ -11,7 +11,7 @@ export default function SearchBar() {
                     className='grid place-items-center flex-shrink-0
                                 w-14 h-14 rounded-xl bg-white text-gray-500
                                 shadow-xl'>
-                    <HomeIcon className='w-6 h-6' />
+                    <HomeIcon className='w-6 h-6 pointer-events-none' />
                 </a>
             </Link>
             <div
